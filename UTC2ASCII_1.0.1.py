@@ -79,7 +79,7 @@ def Convertfn(event):
 
 def Copyfn(event):
     global text
-    text=textbox.get(1.0,20.0)
+    text=textbox.get(1.0,2000.0)
     pyperclip.copy(text)
 
 def ClearTextBox(event):
